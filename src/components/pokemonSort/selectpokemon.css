@@ -1,0 +1,15 @@
+.select-pokemon {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 700px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+.select-pokemon select {
+  color: #fff;
+  background-color: #220a3d;
+  margin: 5px 10px;
+  padding: 2px 5px;
+  border-radius: 10px;
+  font-size: 1.25em;
+}

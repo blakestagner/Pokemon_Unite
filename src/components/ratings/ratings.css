@@ -1,0 +1,64 @@
+.star-row {
+  margin: 5px 10px;
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+}
+.star-row span {
+  width: 30%;
+}
+.star-ratings-css {
+  unicode-bidi: bidi-override;
+  color: #c5c5c5;
+  font-size: 1.5em;
+  width: auto;
+  margin: 0 auto;
+  position: relative;
+}
+.star-ratings-css::before {
+  content: "★★★★★";
+  opacity: 0.3;
+}
+.star-ratings-css::after {
+  color: #fc0;
+  content: "★★★★★";
+  position: absolute;
+  z-index: 1;
+  display: block;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+[title="0"]::after {
+  width: 0%;
+}
+[title="0.5"]::after {
+  width: 10%;
+}
+[title="1"]::after {
+  width: 20%;
+}
+[title="1.5"]::after {
+  width: 30%;
+}
+[title="2"]::after {
+  width: 40%;
+}
+[title="2.5"]::after {
+  width: 50%;
+}
+[title="3"]::after {
+  width: 60%;
+}
+[title="3.5"]::after {
+  width: 70%;
+}
+[title="4"]::after {
+  width: 80%;
+}
+[title="4.5"]::after {
+  width: 90%;
+}
+[title="5"]::after {
+  width: 100%;
+}

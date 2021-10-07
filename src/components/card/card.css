@@ -1,0 +1,35 @@
+.all_rounder-header {
+  background-image: linear-gradient(90deg, #af51b4 0%, #ce5fd3 63%);
+}
+.supporter-header {
+  background-image: linear-gradient(90deg, #c9a343 0%, #fecc51 63%);
+}
+.attacker-header {
+  background-image: linear-gradient(90deg, #af4417 0%, #ee7221 63%);
+}
+.defender-header {
+  background-image: linear-gradient(90deg, #aced5b, 0%, #85b64a 50%);
+}
+.speedster-header {
+  background-image: linear-gradient(90deg, #1f79a7 0%, #29a5e3 63%);
+}
+.move-card-header {
+  color: #fff;
+  position: relative;
+  padding: 5px;
+  height: fit-content;
+}
+.move-card-header p {
+  font-size: 2em;
+  margin: 0 10px;
+  font-weight: bold;
+  text-shadow: -1px 2px 4px #000;
+}
+.detail-card {
+  box-shadow: rgb(0 0 0 / 12%) 0px 4px 5px;
+  border-radius: 1em;
+  margin: 0 auto;
+  text-align: left;
+  overflow: hidden;
+  margin: 5px;
+}

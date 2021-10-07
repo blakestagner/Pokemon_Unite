@@ -1,0 +1,47 @@
+.toolbar {
+  background-color: #6523b6;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.toolbar img {
+  height: 60px;
+  width: auto;
+  margin: 0 20px;
+}
+.toolbar ul {
+  display: flex;
+  flex-direction: row;
+}
+.toolbar ul li {
+  color: #fff;
+  list-style-type: none;
+  margin: 5px 15px;
+}
+.toolbar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.sidenav {
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 100px;
+  bottom: 100px;
+  left: 0;
+  box-shadow: 0 0px 7px -4px grey;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196f3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}

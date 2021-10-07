@@ -1,38 +1,98 @@
+@font-face {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-display: "swap";
+  src: local("Exo 2"), url("./fonts/Exo2.ttf") format("truetype");
+}
+.supporter,
+.supporter:before {
+  background-color: #fecc51;
+}
+.attacker,
+.attacker:before {
+  background-color: #f16c38;
+}
+
+.speedster,
+.speedster:before {
+  background-color: #29a5e3;
+}
+
+.all_rounder,
+.all_rounder:before {
+  background-color: #ce5fd3;
+  color: #fff;
+}
+
+.defender,
+.defender:before {
+  background-color: #aced5b;
+}
+.supporter-color {
+  color: #fecc51;
+}
+.attacker-color {
+  color: #f16c38;
+}
+
+.speedster-color {
+  color: #29a5e3;
+}
+
+.all_rounder-color {
+  color: #ce5fd3;
+}
+
+.defender-color {
+  color: #aced5b;
+}
+.special {
+  background-color: cadetblue;
+}
+.physical {
+  background-color: darkblue;
+}
+.expert {
+  background-color: darkolivegreen;
+}
+.intermediate {
+  background-color: firebrick;
+}
+.novice {
+  background-color: darkslateblue;
+}
+.melee {
+  background-color: forestgreen;
+}
+.ranged {
+  background-color: goldenrod;
+}
+.area {
+  background-color: brown;
+  color: #fff;
+}
+.sure_hit {
+  background-color: darkslategrey;
+  color: #fff;
+}
+.hindrance {
+  background-color: mediumslateblue;
+  color: #fff;
+}
 .App {
   text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 400;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.not-found {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row {
+  display: flex;
+  flex-direction: row;
 }

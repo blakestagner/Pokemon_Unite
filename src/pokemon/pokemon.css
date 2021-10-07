@@ -1,0 +1,66 @@
+.p-basic-card {
+  margin: 4px;
+  display: inherit;
+  border-radius: 1em;
+  overflow: hidden;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 5px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.p-basic-img {
+  width: 100%;
+  height: auto;
+  z-index: 2;
+}
+.p-name {
+  font-size: 1.75em;
+  margin: 0;
+  padding: 5px 0;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 5px 5px;
+}
+.basic-info {
+  border-radius: 1em;
+  margin: 4px 0;
+  width: 45%;
+}
+.basic-info p {
+  margin: 0;
+  padding: 4px 5px;
+  color: #fff;
+  text-align: center;
+}
+.p-info {
+  color: #220a3d;
+  background-color: #fff;
+  z-index: 2;
+}
+.pokemon-card__background::before {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-image: url(./img/square-pattern.svg),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 38%);
+  background-size: 140px, auto;
+  background-position: center, left top;
+  content: "";
+}
+.p-details {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+.p-details main .p-basic-card {
+  max-width: 350px;
+}
+.grid-50-50 {
+  max-width: 1000px;
+  margin: 25px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(500px, 100%), 1fr));
+}

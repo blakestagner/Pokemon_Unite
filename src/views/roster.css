@@ -1,0 +1,12 @@
+.p-basic-grid {
+  padding: 0 5px;
+  max-width: 1000px;
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+.p-basic-grid a {
+  display: grid;
+  text-decoration: none;
+  cursor: pointer;
+}

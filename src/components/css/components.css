@@ -1,0 +1,43 @@
+.icon-pokeball,
+.icon-team-up {
+  fill: #fff;
+}
+.icon-arrow {
+  fill: #e45b04;
+  color: #e45b04;
+  height: 60px;
+  width: 60px;
+}
+.icon-arrow-first {
+  fill: #fb7823;
+  color: #fb7823;
+  height: 60px;
+  width: 60px;
+}
+.halftone {
+  overflow: hidden;
+  position: absolute;
+  pointer-events: none;
+}
+.halftone-pokemon {
+  bottom: 50%;
+  height: 100%;
+  width: 100%;
+  left: 50%;
+  transform-origin: right top;
+}
+.halftone-card {
+  top: 0;
+  height: 100%;
+  width: 50%;
+  left: 0;
+}
+.halftone__svg {
+  display: block;
+  position: relative;
+  width: 100%;
+  border-radius: inherit;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}

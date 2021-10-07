@@ -1,0 +1,2793 @@
+{
+"pokemon": [
+	{
+		"pokemonId": "venusaur",
+		"dex": 3,
+		"role": "attacker",
+		"type": "ranged",
+		"style": "special",
+		"difficulty": "intermediate",
+		"ratings": {
+			"offense": 4.5,
+			"endurance": 2,
+			"mobility": 2,
+			"scoring": 2.5,
+			"support": 1
+		},
+		"stages": [
+			{
+				"stageId": "bulbasaur",
+				"level": 1
+			},
+			{
+				"stageId": "ivysaur",
+				"level": 5
+			},
+			{
+				"stageId": "venusaur",
+				"level": 9
+			}
+		],
+		"stats": [
+			{"level": 1, "hp": 3300, "atk": 134, "def": 35, "spA": 50, "spD": 27, "speed": 3700},
+			{"level": 2, "hp": 3343, "atk": 136, "def": 37, "spA": 63, "spD": 29, "speed": 3700},
+			{"level": 3, "hp": 3395, "atk": 139, "def": 39, "spA": 79, "spD": 31, "speed": 3700},
+			{"level": 4, "hp": 3457, "atk": 142, "def": 42, "spA": 98, "spD": 33, "speed": 3700},
+			{"level": 5, "hp": 3683, "atk": 154, "def": 52, "spA": 166, "spD": 41, "speed": 3700},
+			{"level": 6, "hp": 3773, "atk": 159, "def": 56, "spA": 193, "spD": 44, "speed": 3700},
+			{"level": 7, "hp": 3881, "atk": 165, "def": 61, "spA": 226, "spD": 48, "speed": 3700},
+			{"level": 8, "hp": 4011, "atk": 172, "def": 67, "spA": 265, "spD": 53, "speed": 3700},
+			{"level": 9, "hp": 4469, "atk": 196, "def": 88, "spA": 403, "spD": 69, "speed": 3700},
+			{"level": 10, "hp": 4655, "atk": 206, "def": 97, "spA": 459, "spD": 76, "speed": 3700},
+			{"level": 11, "hp": 4879, "atk": 218, "def": 107, "spA": 527, "spD": 84, "speed": 3700},
+			{"level": 12, "hp": 5148, "atk": 232, "def": 119, "spA": 608, "spD": 94, "speed": 3700},
+			{"level": 13, "hp": 5470, "atk": 249, "def": 134, "spA": 705, "spD": 106, "speed": 3700},
+			{"level": 14, "hp": 5857, "atk": 269, "def": 152, "spA": 822, "spD": 120, "speed": 3700},
+			{"level": 15, "hp": 6321, "atk": 293, "def": 174, "spA": 962, "spD": 137, "speed": 3700}
+		],
+		"moves": {
+			"basic": {
+				"moveId": "venusaur_basic",
+				"style": "physical",
+				"boostStyle": "special",
+				"boostCount": 3,
+				"details": ""
+			},
+			"slot1": [
+				{
+					"moveId": "seed_bomb",
+					"style": "special",
+					"category": "ranged",
+					"cooldown": 6,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "sludge_bomb",
+					"style": "special",
+					"category": "ranged",
+					"cooldown": 6,
+					"level": 5,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "giga_drain",
+					"style": "special",
+					"category": "recovery",
+					"cooldown": 7,
+					"level": 5,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"slot2": [
+				{
+					"moveId": "razor_leaf",
+					"style": "special",
+					"category": "area",
+					"cooldown": 9,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "solar_beam",
+					"style": "special",
+					"category": "area",
+					"cooldown": 11,
+					"level": 7,
+					"upgrade": 10,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "petal_dance",
+					"style": "special",
+					"category": "area",
+					"cooldown": 11,
+					"level": 7,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"unite": {
+				"moveId": "verdant_anger",
+				"category": "area",
+				"level": 9,
+				"details": ""
+			},
+			"passive": {
+				"moveId": "overgrow",
+				"details": ""
+			}
+		}
+	},
+	{
+		"pokemonId": "charizard",
+		"dex": 6,
+		"role": "all_rounder",
+		"type": "melee",
+		"style": "physical",
+		"difficulty": "novice",
+		"ratings": {
+			"offense": 3.5,
+			"endurance": 3,
+			"mobility": 2.5,
+			"scoring": 3,
+			"support": 0.5
+		},
+		"stages": [
+			{
+				"stageId": "charmander",
+				"level": 1
+			},
+			{
+				"stageId": "charmeleon",
+				"level": 4
+			},
+			{
+				"stageId": "charizard",
+				"level": 9
+			}
+		],
+		"stats": [
+			{"level": 1, "hp": 3200, "atk": 161, "def": 70, "spA": 20, "spD": 34, "speed": 3700},
+			{"level": 2, "hp": 3264, "atk": 165, "def": 74, "spA": 21, "spD": 57, "speed": 3700},
+			{"level": 3, "hp": 3341, "atk": 170, "def": 79, "spA": 23, "spD": 61, "speed": 3700},
+			{"level": 4, "hp": 3434, "atk": 175, "def": 85, "spA": 25, "spD": 65, "speed": 3700},
+			{"level": 5, "hp": 3771, "atk": 199, "def": 106, "spA": 32, "spD": 81, "speed": 3700},
+			{"level": 6, "hp": 3905, "atk": 208, "def": 114, "spA": 35, "spD": 87, "speed": 3700},
+			{"level": 7, "hp": 4066, "atk": 219, "def": 124, "spA": 38, "spD": 95, "speed": 3700},
+			{"level": 8, "hp": 4259, "atk": 232, "def": 136, "spA": 42, "spD": 104, "speed": 3700},
+			{"level": 9, "hp": 4941, "atk": 278, "def": 178, "spA": 56, "spD": 137, "speed": 3700},
+			{"level": 10, "hp": 5219, "atk": 297, "def": 195, "spA": 62, "spD": 150, "speed": 3700},
+			{"level": 11, "hp": 5553, "atk": 319, "def": 216, "spA": 69, "spD": 166, "speed": 3700},
+			{"level": 12, "hp": 5953, "atk": 346, "def": 241, "spA": 77, "spD": 185, "speed": 3700},
+			{"level": 13, "hp": 6433, "atk": 378, "def": 271, "spA": 87, "spD": 208, "speed": 3700},
+			{"level": 14, "hp": 7009, "atk": 417, "def": 307, "spA": 99, "spD": 236, "speed": 3700},
+			{"level": 15, "hp": 7700, "atk": 463, "def": 350, "spA": 114, "spD": 269, "speed": 3700}
+		],
+		"moves": {
+			"basic": {
+				"moveId": "charizard_basic",
+				"style": "physical",
+				"boostStyle": "physical",
+				"boostCount": 0,
+				"details": ""
+			},
+			"slot1": [
+				{
+					"moveId": "flame_burst",
+					"style": "physical",
+					"category": "ranged",
+					"cooldown": 6,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "flamethrower",
+					"style": "physical",
+					"category": "ranged",
+					"cooldown": 5.5,
+					"level": 5,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "fire_punch",
+					"style": "physical",
+					"category": "dash",
+					"cooldown": 6,
+					"level": 5,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"slot2": [
+				{
+					"moveId": "fire_spin",
+					"style": "physical",
+					"category": "area",
+					"cooldown": 10,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "fire_blast",
+					"style": "physical",
+					"category": "area",
+					"cooldown": 8,
+					"level": 7,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "flare_blitz",
+					"style": "physical",
+					"category": "dash",
+					"cooldown": 10,
+					"level": 7,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"unite": {
+				"moveId": "seismic_slam",
+				"category": "sure_hit",
+				"level": 9,
+				"details": ""
+			},
+			"passive": {
+				"moveId": "blaze",
+				"details": ""
+			}
+		}
+	},
+	{
+		"pokemonId": "pikachu",
+		"dex": 25,
+		"role": "attacker",
+		"type": "ranged",
+		"style": "special",
+		"difficulty": "novice",
+		"ratings": {
+			"offense": 4.5,
+			"endurance": 1.5,
+			"mobility": 2.5,
+			"scoring": 2,
+			"support": 1.5
+		},
+		"stages": [
+			{
+				"stageId": "pikachu",
+				"level": 1
+			}
+		],
+		"stats": [
+			{"level": 1, "hp": 3292, "atk": 134, "def": 35, "spA": 50, "spD": 27, "speed": 3700},
+			{"level": 2, "hp": 3399, "atk": 140, "def": 40, "spA": 82, "spD": 31, "speed": 3700},
+			{"level": 3, "hp": 3517, "atk": 146, "def": 45, "spA": 117, "spD": 35, "speed": 3700},
+			{"level": 4, "hp": 3646, "atk": 153, "def": 51, "spA": 156, "spD": 40, "speed": 3700},
+			{"level": 5, "hp": 3788, "atk": 160, "def": 58, "spA": 199, "spD": 45, "speed": 3700},
+			{"level": 6, "hp": 3945, "atk": 168, "def": 65, "spA": 246, "spD": 51, "speed": 3700},
+			{"level": 7, "hp": 4117, "atk": 177, "def": 73, "spA": 298, "spD": 57, "speed": 3700},
+			{"level": 8, "hp": 4307, "atk": 187, "def": 82, "spA": 355, "spD": 64, "speed": 3700},
+			{"level": 9, "hp": 4516, "atk": 198, "def": 92, "spA": 418, "spD": 72, "speed": 3700},
+			{"level": 10, "hp": 4747, "atk": 210, "def": 103, "spA": 487, "spD": 80, "speed": 3700},
+			{"level": 11, "hp": 5001, "atk": 223, "def": 115, "spA": 563, "spD": 89, "speed": 3700},
+			{"level": 12, "hp": 5280, "atk": 237, "def": 128, "spA": 647, "spD": 99, "speed": 3700},
+			{"level": 13, "hp": 5588, "atk": 253, "def": 142, "spA": 740, "spD": 110, "speed": 3700},
+			{"level": 14, "hp": 5927, "atk": 271, "def": 158, "spA": 842, "spD": 122, "speed": 3700},
+			{"level": 15, "hp": 6300, "atk": 290, "def": 175, "spA": 954, "spD": 135, "speed": 3700}
+		],
+		"moves": {
+			"basic": {
+				"moveId": "pikachu_basic",
+				"style": "physical",
+				"boostStyle": "special",
+				"boostCount": 3,
+				"details": "Becomes a boosted attack with every third attack, dealing increased damage. This boosted attack also stuns opposing Pokemon for a short time when it hits."
+			},
+			"slot1": [
+				{
+					"moveId": "thunder_shock",
+					"style": "special",
+					"category": "sure_hit",
+					"cooldown": 5,
+					"level": 1,
+					"details": "Fires electricity at a target area, damaging and stunning enemy Pokemon."
+				},
+				{
+					"moveId": "electro_ball",
+					"style": "special",
+					"category": "sure_hit",
+					"cooldown": 5,
+					"level": 4,
+					"upgrade": 11,
+					"upgrade_details": "Increases the damage dealt by Electro Ball.",
+					"details": "Hurls an electric orb, damaging and stunning enemy Pokemon within the area of effect. Deals extra damage based on missing HP of enemy Pokemon."
+				},
+				{
+					"moveId": "thunder",
+					"style": "special",
+					"category": "area",
+					"cooldown": 8,
+					"level": 4,
+					"upgrade": 11,
+					"upgrade_details": "Increases the number of lightning strikes.",
+					"details": "Summons a barrage of lightning strikes at the target area, dealing damage to enemy Pokemon."
+				}
+			],
+			"slot2": [
+				{
+					"moveId": "electro_web",
+					"style": "special",
+					"category": "hindrance",
+					"cooldown": 9,
+					"level": 1,
+					"details": "Throws an electric net, stunning the enemy Pokemon."
+				},
+				{
+					"moveId": "volt_tackle",
+					"style": "special",
+					"category": "hindrance",
+					"cooldown": 10,
+					"level": 6,
+					"upgrade": 13,
+					"upgrade_details": "Reduces the cooldown of Volt Tackle.",
+					"details": "The user engulfs itself with electricity and leaps forward, damaging and knocking up enemy Pokemon hit by the Move."
+				},
+				{
+					"moveId": "thunderbolt",
+					"style": "special",
+					"category": "hindrance",
+					"cooldown": 8,
+					"level": 6,
+					"upgrade": 13,
+					"upgrade_details": "Increases the damage dealt by Thunderbolt.",
+					"details": "Summons a powerful blast of lightning after a short charge, damaging and stunning enemy Pokemon in the area."
+
+				}
+			],
+			"unite": {
+				"moveId": "thunderstorm",
+				"category": "area",
+				"level": 9,
+				"details": "Summons a lightning all around the user and increases Movement Speed. Any enemies around the user will get struck by lightning."
+			},
+			"passive": {
+				"moveId": "static",
+				"details": "The user unleashes electricity when taking damage, stunning nearby opponents. Will not take effect again until cooldown ends."
+			}
+		}
+	},
+	{
+		"pokemonId": "alolan_ninetales",
+		"dex": 38,
+		"role": "attacker",
+		"type": "ranged",
+		"style": "special",
+		"difficulty": "intermediate",
+		"ratings": {
+			"offense": 4,
+			"endurance": 1.5,
+			"mobility": 1.5,
+			"scoring": 2.5,
+			"support": 3
+		},
+		"stages": [
+			{
+				"stageId": "alolan_vulpix",
+				"level": 1
+			},
+			{
+				"stageId": "alolan_ninetales",
+				"level": 4
+			}
+		],
+		"stats": [
+			{"level": 1, "hp": 3197, "atk": 134, "def": 35, "spA": 51, "spD": 27, "speed": 3700},
+			{"level": 2, "hp": 3266, "atk": 137, "def": 38, "spA": 71, "spD": 29, "speed": 3700},
+			{"level": 3, "hp": 3345, "atk": 141, "def": 42, "spA": 94, "spD": 32, "speed": 3700},
+			{"level": 4, "hp": 3747, "atk": 161, "def": 60, "spA": 211, "spD": 46, "speed": 3700},
+			{"level": 5, "hp": 3852, "atk": 166, "def": 65, "spA": 242, "spD": 50, "speed": 3700},
+			{"level": 6, "hp": 3972, "atk": 172, "def": 70, "spA": 277, "spD": 54, "speed": 3700},
+			{"level": 7, "hp": 4110, "atk": 179, "def": 76, "spA": 317, "spD": 59, "speed": 3700},
+			{"level": 8, "hp": 4269, "atk": 187, "def": 83, "spA": 363, "spD": 65, "speed": 3700},
+			{"level": 9, "hp": 4452, "atk": 196, "def": 91, "spA": 416, "spD": 71, "speed": 3700},
+			{"level": 10, "hp": 4663, "atk": 207, "def": 101, "spA": 477, "spD": 78, "speed": 3700},
+			{"level": 11, "hp": 4906, "atk": 219, "def": 112, "spA": 548, "spD": 86, "speed": 3700},
+			{"level": 12, "hp": 5185, "atk": 233, "def": 125, "spA": 629, "spD": 96, "speed": 3700},
+			{"level": 13, "hp": 5506, "atk": 249, "def": 139, "spA": 723, "spD": 107, "speed": 3700},
+			{"level": 14, "hp": 5875, "atk": 268, "def": 156, "spA": 831, "spD": 120, "speed": 3700},
+			{"level": 15, "hp": 6299, "atk": 289, "def": 175, "spA": 955, "spD": 135, "speed": 3700}
+		],
+		"moves": {
+			"basic": {
+				"moveId": "alolan_ninetales_basic",
+				"style": "physical",
+				"boostStyle": "special",
+				"boostCount": 3,
+				"details": ""
+			},
+			"slot1": [
+				{
+					"moveId": "powder_snow",
+					"style": "special",
+					"category": "area",
+					"cooldown": 5,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "avalanche",
+					"style": "special",
+					"category": "area",
+					"cooldown": 7,
+					"level": 4,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "dazzling_gleam",
+					"style": "special",
+					"category": "hindrance",
+					"cooldown": 7.5,
+					"level": 4,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"slot2": [
+				{
+					"moveId": "icy_wind",
+					"style": "special",
+					"category": "ranged",
+					"cooldown": 8,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "blizzard",
+					"style": "special",
+					"category": "ranged",
+					"cooldown": 11,
+					"level": 6,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "aurora_veil",
+					"style": "special",
+					"category": "buff",
+					"cooldown": 13,
+					"level": 6,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"unite": {
+				"moveId": "snow_globe",
+				"category": "area",
+				"level": 9,
+				"details": ""
+			},
+			"passive": {
+				"moveId": "snow_warning",
+				"details": ""
+			}
+		}
+	},
+	{
+		"pokemonId": "wigglytuff",
+		"dex": 40,
+		"role": "supporter",
+		"type": "ranged",
+		"style": "special",
+		"difficulty": "intermediate",
+		"ratings": {
+			"offense": 1,
+			"endurance": 2.5,
+			"mobility": 2.5,
+			"scoring": 2,
+			"support": 4.5
+		},
+		"stages": [
+			{
+				"stageId": "jigglypuff",
+				"level": 1
+			},
+			{
+				"stageId": "wigglytuff",
+				"level": 4
+			}
+		],
+		"stats": [
+			{"level": 1, "hp": 3278, "atk": 130, "def": 90, "spA": 40, "spD": 80, "speed": 3700},
+			{"level": 2, "hp": 3415, "atk": 134, "def": 100, "spA": 53, "spD": 89, "speed": 3700},
+			{"level": 3, "hp": 3573, "atk": 139, "def": 111, "spA": 68, "spD": 99, "speed": 3700},
+			{"level": 4, "hp": 4327, "atk": 162, "def": 169, "spA": 144, "spD": 151, "speed": 3700},
+			{"level": 5, "hp": 4581, "atk": 168, "def": 184, "spA": 164, "spD": 165, "speed": 3700},
+			{"level": 6, "hp": 4821, "atk": 175, "def": 201, "spA": 187, "spD": 181, "speed": 3700},
+			{"level": 7, "hp": 5097, "atk": 183, "def": 221, "spA": 213, "spD": 199, "speed": 3700},
+			{"level": 8, "hp": 5414, "atk": 192, "def": 244, "spA": 243, "spD": 220, "speed": 3700},
+			{"level": 9, "hp": 5779, "atk": 203, "def": 271, "spA": 278, "spD": 244, "speed": 3700},
+			{"level": 10, "hp": 6199, "atk": 215, "def": 302, "spA": 318, "spD": 271, "speed": 3700},
+			{"level": 11, "hp": 6681, "atk": 229, "def": 337, "spA": 364, "spD": 302, "speed": 3700},
+			{"level": 12, "hp": 7236, "atk": 245, "def": 377, "spA": 417, "spD": 338, "speed": 3700},
+			{"level": 13, "hp": 7874, "atk": 264, "def": 424, "spA": 477, "spD": 379, "speed": 3700},
+			{"level": 14, "hp": 8608, "atk": 285, "def": 477, "spA": 547, "spD": 427, "speed": 3700},
+			{"level": 15, "hp": 9452, "atk": 310, "def": 539, "spA": 627, "spD": 482, "speed": 3700}
+		],
+		"moves": {
+			"basic": {
+				"moveId": "wigglytuff_basic",
+				"style": "physical",
+				"boostStyle": "special",
+				"boostCount": 3,
+				"details": ""
+			},
+			"slot1": [
+				{
+					"moveId": "pound",
+					"style": "special",
+					"category": "melee",
+					"cooldown": 5,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "double_slap",
+					"style": "special",
+					"category": "melee",
+					"cooldown": 5,
+					"level": 6,
+					"upgrade": 10,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "dazzling_gleam",
+					"style": "special",
+					"category": "hindrance",
+					"cooldown": 4.5,
+					"level": 6,
+					"upgrade": 10,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"slot2": [
+				{
+					"moveId": "defense_curl",
+					"style": "special",
+					"category": "hindrance",
+					"cooldown": 8,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "rollout",
+					"style": "special",
+					"category": "hindrance",
+					"cooldown": 10,
+					"level": 4,
+					"upgrade": 12,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "sing",
+					"style": "special",
+					"category": "area",
+					"cooldown": 10,
+					"level": 4,
+					"upgrade": 12,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"unite": {
+				"moveId": "star_recital",
+				"category": "buff",
+				"level": 8,
+				"details": ""
+			},
+			"passive": {
+				"moveId": "cute_charm",
+				"details": ""
+			}
+		}
+	},
+	{
+		"pokemonId": "machamp",
+		"dex": 68,
+		"role": "all_rounder",
+		"type": "melee",
+		"style": "physical",
+		"difficulty": "intermediate",
+		"ratings": {
+			"offense": 4,
+			"endurance": 2.5,
+			"mobility": 2.5,
+			"scoring": 2.5,
+			"support": 0.5
+		},
+		"stages": [
+			{
+				"stageId": "machop",
+				"level": 1
+			},
+			{
+				"stageId": "machoke",
+				"level": 5
+			},
+			{
+				"stageId": "machamp",
+				"level": 9
+			}
+		],
+		"stats": [
+			{"level": 1, "hp": 3250, "atk": 165, "def": 98, "spA": 20, "spD": 64, "speed": 3700},
+			{"level": 2, "hp": 3313, "atk": 170, "def": 104, "spA": 21, "spD": 68, "speed": 3700},
+			{"level": 3, "hp": 3389, "atk": 175, "def": 111, "spA": 23, "spD": 72, "speed": 3700},
+			{"level": 4, "hp": 3480, "atk": 181, "def": 119, "spA": 25, "spD": 77, "speed": 3700},
+			{"level": 5, "hp": 3809, "atk": 205, "def": 148, "spA": 32, "spD": 96, "speed": 3700},
+			{"level": 6, "hp": 3940, "atk": 214, "def": 160, "spA": 35, "spD": 104, "speed": 3700},
+			{"level": 7, "hp": 4097, "atk": 225, "def": 174, "spA": 38, "spD": 113, "speed": 3700},
+			{"level": 8, "hp": 4286, "atk": 239, "def": 191, "spA": 42, "spD": 124, "speed": 3700},
+			{"level": 9, "hp": 4953, "atk": 287, "def": 250, "spA": 56, "spD": 163, "speed": 3700},
+			{"level": 10, "hp": 5225, "atk": 306, "def": 274, "spA": 62, "spD": 179, "speed": 3700},
+			{"level": 11, "hp": 5551, "atk": 329, "def": 303, "spA": 69, "spD": 198, "speed": 3700},
+			{"level": 12, "hp": 5942, "atk": 357, "def": 338, "spA": 77, "spD": 221, "speed": 3700},
+			{"level": 13, "hp": 6411, "atk": 391, "def": 380, "spA": 87, "spD": 248, "speed": 3700},
+			{"level": 14, "hp": 6974, "atk": 431, "def": 430, "spA": 99, "spD": 281, "speed": 3700},
+			{"level": 15, "hp": 7650, "atk": 479, "def": 490, "spA": 114, "spD": 320, "speed": 3700}
+		],
+		"moves": {
+			"basic": {
+				"moveId": "machamp_basic",
+				"style": "physical",
+				"boostStyle": "physical",
+				"boostCount": 3,
+				"details": ""
+			},
+			"slot1": [
+				{
+					"moveId": "karate_chop",
+					"style": "physical",
+					"category": "melee",
+					"cooldown": 6,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "close_combat",
+					"style": "physical",
+					"category": "melee",
+					"cooldown": 6,
+					"level": 7,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "cross_chop",
+					"style": "physical",
+					"category": "dash",
+					"cooldown": 6,
+					"level": 7,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"slot2": [
+				{
+					"moveId": "bulk_up",
+					"style": "physical",
+					"category": "buff",
+					"cooldown": 8,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "dynamic_punch",
+					"style": "physical",
+					"category": "dash",
+					"cooldown": 8,
+					"level": 5,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "submission",
+					"style": "physical",
+					"category": "hindrance",
+					"cooldown": 11,
+					"level": 5,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"unite": {
+				"moveId": "barrage_blow",
+				"category": "buff",
+				"level": 9,
+				"details": ""
+			},
+			"passive": {
+				"moveId": "guts",
+				"details": ""
+			}
+		}
+	},
+	{
+		"pokemonId": "slowbro",
+		"dex": 80,
+		"role": "defender",
+		"type": "ranged",
+		"style": "special",
+		"difficulty": "intermediate",
+		"ratings": {
+			"offense": 1.5,
+			"endurance": 4,
+			"mobility": 1.5,
+			"scoring": 1.5,
+			"support": 4
+		},
+		"stages": [
+			{
+				"stageId": "slowpoke",
+				"level": 1
+			},
+			{
+				"stageId": "slowbro",
+				"level": 4
+			}
+		],
+		"stats": [
+			{"level": 1, "hp": 3225, "atk": 150, "def": 70, "spA": 50, "spD": 60, "speed": 3700},
+			{"level": 2, "hp": 3362, "atk": 153, "def": 78, "spA": 58, "spD": 67, "speed": 3700},
+			{"level": 3, "hp": 3519, "atk": 157, "def": 87, "spA": 67, "spD": 75, "speed": 3700},
+			{"level": 4, "hp": 4318, "atk": 175, "def": 132, "spA": 114, "spD": 114, "speed": 3700},
+			{"level": 5, "hp": 4527, "atk": 180, "def": 144, "spA": 126, "spD": 124, "speed": 3700},
+			{"level": 6, "hp": 4767, "atk": 186, "def": 158, "spA": 140, "spD": 136, "speed": 3700},
+			{"level": 7, "hp": 5042, "atk": 192, "def": 174, "spA": 156, "spD": 149, "speed": 3700},
+			{"level": 8, "hp": 5359, "atk": 199, "def": 192, "spA": 175, "spD": 164, "speed": 3700},
+			{"level": 9, "hp": 5724, "atk": 207, "def": 213, "spA": 196, "spD": 182, "speed": 3700},
+			{"level": 10, "hp": 6144, "atk": 217, "def": 237, "spA": 221, "spD": 202, "speed": 3700},
+			{"level": 11, "hp": 6627, "atk": 228, "def": 264, "spA": 249, "spD": 225, "speed": 3700},
+			{"level": 12, "hp": 7183, "atk": 241, "def": 295, "spA": 282, "spD": 252, "speed": 3700},
+			{"level": 13, "hp": 7822, "atk": 256, "def": 331, "spA": 319, "spD": 283, "speed": 3700},
+			{"level": 14, "hp": 8556, "atk": 273, "def": 373, "spA": 362, "spD": 319, "speed": 3700},
+			{"level": 15, "hp": 9400, "atk": 292, "def": 421, "spA": 411, "spD": 360, "speed": 3700}
+		],
+		"moves": {
+			"basic": {
+				"moveId": "slowbro_basic",
+				"style": "physical",
+				"boostStyle": "special",
+				"boostCount": 3,
+				"details": ""
+			},
+			"slot1": [
+				{
+					"moveId": "water_gun",
+					"style": "special",
+					"category": "melee",
+					"cooldown": 5,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "scald",
+					"style": "special",
+					"category": "melee",
+					"cooldown": 5,
+					"level": 4,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "surf",
+					"style": "special",
+					"category": "dash",
+					"cooldown": 9,
+					"level": 4,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"slot2": [
+				{
+					"moveId": "slack_off",
+					"style": "special",
+					"category": "recovery",
+					"cooldown": 11,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "amnesia",
+					"style": "special",
+					"category": "recovery",
+					"cooldown": 13,
+					"level": 6,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "telekenisis",
+					"style": "special",
+					"category": "hindrance",
+					"cooldown": 11,
+					"level": 5,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"unite": {
+				"moveId": "slowbeam",
+				"category": "hindrance",
+				"level": 9,
+				"details": ""
+			},
+			"passive": {
+				"moveId": "oblivious",
+				"details": ""
+			}
+		}
+	},
+	{
+		"pokemonId": "gengar",
+		"dex": 94,
+		"role": "speedster",
+		"type": "melee",
+		"style": "special",
+		"difficulty": "expert",
+		"ratings": {
+			"offense": 3.5,
+			"endurance": 2,
+			"mobility": 4,
+			"scoring": 3,
+			"support": 0.5
+		},
+		"stages": [
+			{
+				"stageId": "gastly",
+				"level": 1
+			},
+			{
+				"stageId": "haunter",
+				"level": 5
+			},
+			{
+				"stageId": "gengar",
+				"level": 9
+			}
+		],
+		"stats": [
+			{"level": 1, "hp": 3456, "atk": 167, "def": 52, "spA": 50, "spD": 38, "speed": 3650},
+			{"level": 2, "hp": 3510, "atk": 170, "def": 55, "spA": 59, "spD": 40, "speed": 3650},
+			{"level": 3, "hp": 3574, "atk": 173, "def": 59, "spA": 71, "spD": 43, "speed": 3650},
+			{"level": 4, "hp": 3651, "atk": 177, "def": 63, "spA": 83, "spD": 46, "speed": 3650},
+			{"level": 5, "hp": 3931, "atk": 192, "def": 79, "spA": 129, "spD": 57, "speed": 3650},
+			{"level": 6, "hp": 4043, "atk": 198, "def": 85, "spA": 147, "spD": 62, "speed": 3650},
+			{"level": 7, "hp": 4177, "atk": 205, "def": 92, "spA": 169, "spD": 67, "speed": 3650},
+			{"level": 8, "hp": 4338, "atk": 213, "def": 101, "spA": 196, "spD": 74, "speed": 3650},
+			{"level": 9, "hp": 4905, "atk": 243, "def": 133, "spA": 290, "spD": 97, "speed": 3650},
+			{"level": 10, "hp": 5136, "atk": 255, "def": 146, "spA": 328, "spD": 106, "speed": 3650},
+			{"level": 11, "hp": 5414, "atk": 270, "def": 161, "spA": 374, "spD": 117, "speed": 3650},
+			{"level": 12, "hp": 5747, "atk": 288, "def": 179, "spA": 429, "spD": 131, "speed": 3650},
+			{"level": 13, "hp": 6146, "atk": 309, "def": 201, "spA": 495, "spD": 147, "speed": 3650},
+			{"level": 14, "hp": 6625, "atk": 334, "def": 228, "spA": 574, "spD": 166, "speed": 3650},
+			{"level": 15, "hp": 7200, "atk": 364, "def": 260, "spA": 669, "spD": 189, "speed": 3650}
+		],
+		"moves": {
+			"basic": {
+				"moveId": "gengar_basic",
+				"style": "physical",
+				"boostStyle": "special",
+				"boostCount": 3,
+				"details": ""
+			},
+			"slot1": [
+				{
+					"moveId": "will_o_wisp",
+					"style": "special",
+					"category": "ranged",
+					"cooldown": 5,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "shadow_ball",
+					"style": "special",
+					"category": "ranged",
+					"cooldown": 4.5,
+					"level": 5,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "sludge_bomb",
+					"style": "special",
+					"category": "area",
+					"cooldown": 8,
+					"level": 5,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"slot2": [
+				{
+					"moveId": "lick",
+					"style": "special",
+					"category": "area",
+					"cooldown": 7,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "dream_eater",
+					"style": "special",
+					"category": "ranged",
+					"cooldown": 8,
+					"level": 7,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "hex",
+					"style": "special",
+					"category": "dash",
+					"cooldown": 7.5,
+					"level": 7,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"unite": {
+				"moveId": "phantom_ambush",
+				"category": "dash",
+				"level": 9,
+				"details": ""
+			},
+			"passive": {
+				"moveId": "levitate",
+				"details": ""
+			}
+		}
+	},
+	{
+		"pokemonId": "mr_mime",
+		"dex": 122,
+		"role": "supporter",
+		"type": "melee",
+		"style": "special",
+		"difficulty": "intermediate",
+		"ratings": {
+			"offense": 1.5,
+			"endurance": 4,
+			"mobility": 1,
+			"scoring": 1.5,
+			"support": 4
+		},
+		"stages": [
+			{
+				"stageId": "mr_mime",
+				"level": 1
+			}
+		],
+		"stats": [
+			{"level": 1, "hp": 3225, "atk": 150, "def": 70, "spA": 50, "spD": 60, "speed": 3800},
+			{"level": 2, "hp": 3445, "atk": 155, "def": 82, "spA": 63, "spD": 71, "speed": 3800},
+			{"level": 3, "hp": 3687, "atk": 161, "def": 96, "spA": 77, "spD": 83, "speed": 3800},
+			{"level": 4, "hp": 3953, "atk": 167, "def": 111, "spA": 93, "spD": 96, "speed": 3800},
+			{"level": 5, "hp": 4245, "atk": 174, "def": 128, "spA": 110, "spD": 110, "speed": 3800},
+			{"level": 6, "hp": 4567, "atk": 181, "def": 146, "spA": 129, "spD": 126, "speed": 3800},
+			{"level": 7, "hp": 4921, "atk": 189, "def": 166, "spA": 150, "spD": 143, "speed": 3800},
+			{"level": 8, "hp": 5331, "atk": 198, "def": 188, "spA": 173, "spD": 162, "speed": 3800},
+			{"level": 9, "hp": 5741, "atk": 208, "def": 212, "spA": 198, "spD": 183, "speed": 3800},
+			{"level": 10, "hp": 6215, "atk": 219, "def": 239, "spA": 226, "spD": 206, "speed": 3800},
+			{"level": 11, "hp": 6737, "atk": 231, "def": 269, "spA": 257, "spD": 231, "speed": 3800},
+			{"level": 12, "hp": 7311, "atk": 244, "def": 302, "spA": 291, "spD": 259, "speed": 3800},
+			{"level": 13, "hp": 7942, "atk": 259, "def": 338, "spA": 328, "spD": 290, "speed": 3800},
+			{"level": 14, "hp": 8637, "atk": 275, "def": 377, "spA": 369, "spD": 324, "speed": 3800},
+			{"level": 15, "hp": 9402, "atk": 293, "def": 420, "spA": 414, "spD": 361, "speed": 3800}
+		],
+		"moves": {
+			"basic": {
+				"moveId": "mime_basic",
+				"style": "physical",
+				"boostStyle": "special",
+				"boostCount": 3,
+				"details": ""
+			},
+			"slot1": [
+				{
+					"moveId": "fake_out",
+					"style": "special",
+					"category": "melee",
+					"cooldown": 7,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "confusion",
+					"style": "special",
+					"category": "ranged",
+					"cooldown": 6,
+					"level": 4,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "psychic",
+					"style": "special",
+					"category": "debuff",
+					"cooldown": 6,
+					"level": 5,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"slot2": [
+				{
+					"moveId": "light_screen",
+					"style": "special",
+					"category": "hindrance",
+					"cooldown": 8,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "barrier",
+					"style": "special",
+					"category": "hindrance",
+					"cooldown": 2,
+					"level": 6,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "guard_swap",
+					"style": "special",
+					"category": "debuff",
+					"cooldown": 4.5,
+					"level": 6,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"unite": {
+				"moveId": "showtime",
+				"category": "area",
+				"level": 9,
+				"details": ""
+			},
+			"passive": {
+				"moveId": "filter",
+				"details": ""
+			}
+		}
+	},
+	{
+		"pokemonId": "snorlax",
+		"dex": 143,
+		"role": "defender",
+		"type": "melee",
+		"style": "physical",
+		"difficulty": "novice",
+		"ratings": {
+			"offense": 1.5,
+			"endurance": 5,
+			"mobility": 2,
+			"scoring": 1.5,
+			"support": 2.5
+		},
+		"stages": [
+			{
+				"stageId": "snorlax",
+				"level": 1
+			}
+		],
+		"stats": [
+			{"level": 1, "hp": 3300, "atk": 175, "def": 97, "spA": 20, "spD": 67, "speed": 3650},
+			{"level": 2, "hp": 3535, "atk": 181, "def": 114, "spA": 23, "spD": 79, "speed": 3650},
+			{"level": 3, "hp": 3793, "atk": 188, "def": 133, "spA": 27, "spD": 92, "speed": 3650},
+			{"level": 4, "hp": 4077, "atk": 195, "def": 154, "spA": 31, "spD": 106, "speed": 3650},
+			{"level": 5, "hp": 4389, "atk": 203, "def": 177, "spA": 36, "spD": 122, "speed": 3650},
+			{"level": 6, "hp": 4733, "atk": 212, "def": 202, "spA": 41, "spD": 139, "speed": 3650},
+			{"level": 7, "hp": 5111, "atk": 222, "def": 230, "spA": 46, "spD": 158, "speed": 3650},
+			{"level": 8, "hp": 5528, "atk": 233, "def": 260, "spA": 52, "spD": 179, "speed": 3650},
+			{"level": 9, "hp": 5987, "atk": 245, "def": 294, "spA": 59, "spD": 202, "speed": 3650},
+			{"level": 10, "hp": 6493, "atk": 258, "def": 331, "spA": 66, "spD": 228, "speed": 3650},
+			{"level": 11, "hp": 7050, "atk": 272, "def": 372, "spA": 74, "spD": 256, "speed": 3650},
+			{"level": 12, "hp": 7663, "atk": 288, "def": 417, "spA": 83, "spD": 287, "speed": 3650},
+			{"level": 13, "hp": 8338, "atk": 305, "def": 466, "spA": 93, "spD": 321, "speed": 3650},
+			{"level": 14, "hp": 9081, "atk": 324, "def": 520, "spA": 104, "spD": 359, "speed": 3650},
+			{"level": 15, "hp": 9899, "atk": 345, "def": 580, "spA": 116, "spD": 400, "speed": 3650}
+		],
+		"moves": {
+			"basic": {
+				"moveId": "snorlax_basic",
+				"style": "physical",
+				"boostStyle": "special",
+				"boostCount": 3,
+				"details": ""
+			},
+			"slot1": [
+				{
+					"moveId": "tackle",
+					"style": "physical",
+					"category": "dash",
+					"cooldown": 6,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "heavy_slam",
+					"style": "physical",
+					"category": "dash",
+					"cooldown": 7,
+					"level": 6,
+					"upgrade": 12,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "flail",
+					"style": "physical",
+					"category": "hindrance",
+					"cooldown": 6.5,
+					"level": 6,
+					"upgrade": 12,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"slot2": [
+				{
+					"moveId": "rest",
+					"style": "physical",
+					"category": "hindrance",
+					"cooldown": 10,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "block",
+					"style": "physical",
+					"category": "hindrance",
+					"cooldown": 11,
+					"level": 8,
+					"upgrade": 14,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "yawn",
+					"style": "physical",
+					"category": "hindrance",
+					"cooldown": 12,
+					"level": 8,
+					"upgrade": 14,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"unite": {
+				"moveId": "power_nap",
+				"category": "buff",
+				"level": 9,
+				"details": ""
+			},
+			"passive": {
+				"moveId": "gluttony",
+				"details": ""
+			}
+		}
+	},
+	{
+		"pokemonId": "gardevoir",
+		"dex": 282,
+		"role": "attacker",
+		"type": "ranged",
+		"style": "special",
+		"difficulty": "intermediate",
+		"ratings": {
+			"offense": 4.5,
+			"endurance": 1.5,
+			"mobility": 1.5,
+			"scoring": 3,
+			"support": 1.5
+		},
+		"stages": [
+			{
+				"stageId": "ralts",
+				"level": 1
+			},
+			{
+				"stageId": "kirlia",
+				"level": 6
+			},
+			{
+				"stageId": "gardevoir",
+				"level": 10
+			}
+		],
+		"stats": [
+			{"level": 1, "hp": 3200, "atk": 134, "def": 35, "spA": 50, "spD": 27, "speed": 3700},
+			{"level": 2, "hp": 3245, "atk": 136, "def": 37, "spA": 64, "spD": 29, "speed": 3700},
+			{"level": 3, "hp": 3299, "atk": 139, "def": 39, "spA": 80, "spD": 31, "speed": 3700},
+			{"level": 4, "hp": 3363, "atk": 142, "def": 42, "spA": 100, "spD": 33, "speed": 3700},
+			{"level": 5, "hp": 3440, "atk": 146, "def": 45, "spA": 124, "spD": 36, "speed": 3700},
+			{"level": 6, "hp": 3689, "atk": 181, "def": 56, "spA": 200, "spD": 45, "speed": 3700},
+			{"level": 7, "hp": 3801, "atk": 188, "def": 61, "spA": 234, "spD": 49, "speed": 3700},
+			{"level": 8, "hp": 3935, "atk": 196, "def": 67, "spA": 275, "spD": 54, "speed": 3700},
+			{"level": 9, "hp": 4096, "atk": 205, "def": 74, "spA": 324, "spD": 60, "speed": 3700},
+			{"level": 10, "hp": 4601, "atk": 234, "def": 97, "spA": 478, "spD": 77, "speed": 3700},
+			{"level": 11, "hp": 4832, "atk": 248, "def": 107, "spA": 548, "spD": 85, "speed": 3700},
+			{"level": 12, "hp": 5109, "atk": 264, "def": 119, "spA": 632, "spD": 95, "speed": 3700},
+			{"level": 13, "hp": 5442, "atk": 284, "def": 134, "spA": 733, "spD": 107, "speed": 3700},
+			{"level": 14, "hp": 5841, "atk": 307, "def": 152, "spA": 855, "spD": 121, "speed": 3700},
+			{"level": 15, "hp": 6320, "atk": 334, "def": 174, "spA": 1001, "spD": 138, "speed": 3700}
+		],
+		"moves": {
+			"basic": {
+				"moveId": "gardevoir_basic",
+				"style": "physical",
+				"boostStyle": "special",
+				"boostCount": 3,
+				"details": ""
+				
+			},
+			"slot1": [
+				{
+					"moveId": "confusion",
+					"style": "special",
+					"category": "ranged",
+					"cooldown": 4.5,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "psychic",
+					"style": "special",
+					"category": "ranged",
+					"cooldown": 7,
+					"level": 8,
+					"upgrade": 14,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "moonblast",
+					"style": "special",
+					"category": "ranged",
+					"cooldown": 6,
+					"level": 8,
+					"upgrade": 14,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"slot2": [
+				{
+					"moveId": "teleport",
+					"style": "special",
+					"category": "dash",
+					"cooldown": 11,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "psyshock",
+					"style": "special",
+					"category": "area",
+					"cooldown": 11,
+					"level": 6,
+					"upgrade": 12,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "future_sight",
+					"style": "special",
+					"category": "area",
+					"cooldown": 9,
+					"level": 6,
+					"upgrade": 12,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"unite": {
+				"moveId": "fairy_singularity",
+				"category": "hindrance",
+				"level": 10,
+				"details": ""
+			},
+			"passive": {
+				"moveId": "synchronize",
+				"details": ""
+			}
+		}
+	},
+	{
+		"pokemonId": "absol",
+		"dex": 359,
+		"role": "speedster",
+		"type": "melee",
+		"style": "physical",
+		"difficulty": "expert",
+		"ratings": {
+			"offense": 3.5,
+			"endurance": 2,
+			"mobility": 4,
+			"scoring": 2.5,
+			"support": 0.5
+		},
+		"stages": [
+			{
+				"stageId": "absol",
+				"level": 1
+			}
+		],
+		"stats": [
+			{"level": 1, "hp": 3000, "atk": 170, "def": 52, "spA": 20, "spD": 36, "speed": 3650},
+			{"level": 2, "hp": 3107, "atk": 186, "def": 59, "spA": 23, "spD": 41, "speed": 3650},
+			{"level": 3, "hp": 3224, "atk": 204, "def": 67, "spA": 27, "spD": 47, "speed": 3650},
+			{"level": 4, "hp": 3353, "atk": 223, "def": 76, "spA": 31, "spD": 53, "speed": 3650},
+			{"level": 5, "hp": 3495, "atk": 244, "def": 86, "spA": 36, "spD": 60, "speed": 3650},
+			{"level": 6, "hp": 3651, "atk": 267, "def": 97, "spA": 41, "spD": 68, "speed": 3650},
+			{"level": 7, "hp": 3823, "atk": 293, "def": 109, "spA": 47, "spD": 76, "speed": 3650},
+			{"level": 8, "hp": 4012, "atk": 321, "def": 122, "spA": 53, "spD": 85, "speed": 3650},
+			{"level": 9, "hp": 4221, "atk": 352, "def": 136, "spA": 60, "spD": 95, "speed": 3650},
+			{"level": 10, "hp": 4451, "atk": 387, "def": 152, "spA": 58, "spD": 106, "speed": 3650},
+			{"level": 11, "hp": 4704, "atk": 425, "def": 170, "spA": 76, "spD": 118, "speed": 3650},
+			{"level": 12, "hp": 4983, "atk": 467, "def": 189, "spA": 85, "spD": 131, "speed": 3650},
+			{"level": 13, "hp": 5290, "atk": 513, "def": 210, "spA": 95, "spD": 146, "speed": 3650},
+			{"level": 14, "hp": 5628, "atk": 564, "def": 233, "spA": 106, "spD": 162, "speed": 3650},
+			{"level": 15, "hp": 6000, "atk": 620, "def": 259, "spA": 118, "spD": 180, "speed": 3650}
+		],
+		"moves": {
+			"basic": {
+				"moveId": "absol_basic",
+				"style": "physical",
+				"boostStyle": "special",
+				"boostCount": 3,
+				"details": ""
+			},
+			"slot1": [
+				{
+					"moveId": "feint",
+					"style": "physical",
+					"category": "dash",
+					"cooldown": 8,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "night_slash",
+					"style": "physical",
+					"category": "dash",
+					"cooldown": 5,
+					"level": 5,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "pursuit",
+					"style": "physical",
+					"category": "dash",
+					"cooldown": 5,
+					"level": 5,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"slot2": [
+				{
+					"moveId": "slash",
+					"style": "physical",
+					"category": "melee",
+					"cooldown": 7,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "psycho_cut",
+					"style": "physical",
+					"category": "melee",
+					"cooldown": 7,
+					"level": 7,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "sucker_punch",
+					"style": "physical",
+					"category": "hindrance",
+					"cooldown": 7,
+					"level": 7,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"unite": {
+				"moveId": "midnight_slash",
+				"category": "area",
+				"level": 9,
+				"details": ""
+			},
+			"passive": {
+				"moveId": "super_luck",
+				"details": ""
+			}
+		}
+	},
+	{
+		"pokemonId": "garchomp",
+		"dex": 445,
+		"role": "all_rounder",
+		"type": "melee",
+		"style": "physical",
+		"difficulty": "intermediate",
+		"ratings": {
+			"offense": 3.5,
+			"endurance": 3.5,
+			"mobility": 2.5,
+			"scoring": 2.5,
+			"support": 0.5
+		},
+		"stages": [
+			{
+				"stageId": "gible",
+				"level": 1
+			},
+			{
+				"stageId": "gabite",
+				"level": 6
+			},
+			{
+				"stageId": "garchomp",
+				"level": 10
+			}
+		],
+		"stats": [
+			{"level": 1, "hp": 3050, "atk": 145, "def": 84, "spA": 20, "spD": 64, "speed": 3650},
+			{"level": 2, "hp": 3117, "atk": 150, "def": 89, "spA": 21, "spD": 68, "speed": 3650},
+			{"level": 3, "hp": 3198, "atk": 156, "def": 95, "spA": 23, "spD": 72, "speed": 3650},
+			{"level": 4, "hp": 3295, "atk": 163, "def": 102, "spA": 25, "spD": 77, "speed": 3650},
+			{"level": 5, "hp": 3412, "atk": 172, "def": 110, "spA": 27, "spD": 83, "speed": 3650},
+			{"level": 6, "hp": 3787, "atk": 200, "def": 137, "spA": 35, "spD": 103, "speed": 3650},
+			{"level": 7, "hp": 3955, "atk": 213, "def": 149, "spA": 38, "spD": 112, "speed": 3650},
+			{"level": 8, "hp": 4157, "atk": 228, "def": 163, "spA": 42, "spD": 123, "speed": 3650},
+			{"level": 9, "hp": 4339, "atk": 246, "def": 180, "spA": 47, "spD": 136, "speed": 3650},
+			{"level": 10, "hp": 5159, "atk": 303, "def": 234, "spA": 62, "spD": 177, "speed": 3650},
+			{"level": 11, "hp": 5507, "atk": 329, "def": 259, "spA": 69, "spD": 196, "speed": 3650},
+			{"level": 12, "hp": 5925, "atk": 360, "def": 289, "spA": 77, "spD": 219, "speed": 3650},
+			{"level": 13, "hp": 6426, "atk": 397, "def": 325, "spA": 87, "spD": 246, "speed": 3650},
+			{"level": 14, "hp": 7028, "atk": 442, "def": 368, "spA": 99, "spD": 279, "speed": 3650},
+			{"level": 15, "hp": 7750, "atk": 496, "def": 420, "spA": 114, "spD": 318, "speed": 3650}
+		],
+		"moves": {
+			"basic": {
+				"moveId": "garchomp_basic",
+				"style": "physical",
+				"boostStyle": "physical",
+				"boostCount": 5,
+				"details": ""
+			},
+			"slot1": [
+				{
+					"moveId": "sand_attack",
+					"style": "physical",
+					"category": "dash",
+					"cooldown": 6,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "dig",
+					"style": "physical",
+					"category": "dash",
+					"cooldown": 8,
+					"level": 6,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "dragon_rush",
+					"style": "physical",
+					"category": "dash",
+					"cooldown": 8,
+					"level": 5,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"slot2": [
+				{
+					"moveId": "bulldoze",
+					"style": "physical",
+					"category": "area",
+					"cooldown": 5,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "earthquake",
+					"style": "physical",
+					"category": "area",
+					"cooldown": 7,
+					"level": 8,
+					"upgrade": 14,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "dragon_claw",
+					"style": "physical",
+					"category": "melee",
+					"cooldown": 5,
+					"level": 8,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"unite": {
+				"moveId": "livid_outrage",
+				"category": "melee",
+				"level": 10,
+				"details": ""
+			},
+			"passive": {
+				"moveId": "rough_skin",
+				"details": ""
+			}
+		}
+	},
+	{
+		"pokemonId": "lucario",
+		"dex": 448,
+		"role": "all_rounder",
+		"type": "melee",
+		"style": "physical",
+		"difficulty": "expert",
+		"ratings": {
+			"offense": 3,
+			"endurance": 2.5,
+			"mobility": 3.5,
+			"scoring": 3,
+			"support": 0.5
+		},
+		"stages": [
+			{
+				"stageId": "lucario",
+				"level": 1
+			}
+		],
+		"stats": [
+			{"level": 1, "hp": 3250, "atk": 165, "def": 78, "spA": 20, "spD": 60, "speed": 3700},
+			{"level": 2, "hp": 3392, "atk": 175, "def": 89, "spA": 23, "spD": 69, "speed": 3700},
+			{"level": 3, "hp": 3549, "atk": 186, "def": 101, "spA": 27, "spD": 78, "speed": 3700},
+			{"level": 4, "hp": 3721, "atk": 198, "def": 114, "spA": 31, "spD": 88, "speed": 3700},
+			{"level": 5, "hp": 3910, "atk": 211, "def": 129, "spA": 36, "spD": 99, "speed": 3700},
+			{"level": 6, "hp": 4118, "atk": 225, "def": 145, "spA": 41, "spD": 112, "speed": 3700},
+			{"level": 7, "hp": 4347, "atk": 241, "def": 163, "spA": 46, "spD": 126, "speed": 3700},
+			{"level": 8, "hp": 4599, "atk": 258, "def": 183, "spA": 52, "spD": 141, "speed": 3700},
+			{"level": 9, "hp": 4877, "atk": 277, "def": 205, "spA": 59, "spD": 158, "speed": 3700},
+			{"level": 10, "hp": 5184, "atk": 298, "def": 229, "spA": 66, "spD": 176, "speed": 3700},
+			{"level": 11, "hp": 5522, "atk": 321, "def": 255, "spA": 74, "spD": 196, "speed": 3700},
+			{"level": 12, "hp": 5894, "atk": 347, "def": 284, "spA": 83, "spD": 218, "speed": 3700},
+			{"level": 13, "hp": 6303, "atk": 375, "def": 316, "spA": 93, "spD": 243, "speed": 3700},
+			{"level": 14, "hp": 6753, "atk": 406, "def": 351, "spA": 104, "spD": 270, "speed": 3700},
+			{"level": 15, "hp": 7249, "atk": 440, "def": 390, "spA": 116, "spD": 300, "speed": 3700}
+		],
+		"moves": {
+			"basic": {
+				"moveId": "lucario_basic",
+				"style": "physical",
+				"boostStyle": "special",
+				"boostCount": 3,
+				"details": ""
+			},
+			"slot1": [
+				{
+					"moveId": "quick_attack",
+					"style": "physical",
+					"category": "dash",
+					"cooldown": 6,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "extreme_speed",
+					"style": "physical",
+					"category": "dash",
+					"cooldown": 9,
+					"level": 5,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "power_up_punch",
+					"style": "physical",
+					"category": "dash",
+					"cooldown": 7,
+					"level": 5,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"slot2": [
+				{
+					"moveId": "meteor_mash",
+					"style": "physical",
+					"category": "melee",
+					"cooldown": 7,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "bone_rush",
+					"style": "physical",
+					"category": "dash",
+					"cooldown": 10,
+					"level": 7,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "close_combat",
+					"style": "physical",
+					"category": "melee",
+					"cooldown": 9,
+					"level": 7,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"unite": {
+				"moveId": "aura_cannon",
+				"category": "ranged",
+				"level": 9,
+				"details": ""
+			},
+			"passive": {
+				"moveId": "steadfast",
+				"details": ""
+			}
+		}
+	},
+	{
+		"pokemonId": "crustle",
+		"dex": 558,
+		"role": "defender",
+		"type": "melee",
+		"style": "physical",
+		"difficulty": "novice",
+		"ratings": {
+			"offense": 1.5,
+			"endurance": 4,
+			"mobility": 1.5,
+			"scoring": 2,
+			"support": 3
+		},
+		"stages": [
+			{
+				"stageId": "dwebble",
+				"level": 1
+			},
+			{
+				"stageId": "crustle",
+				"level": 4
+			}
+		],
+		"stats": [
+			{"level": 1, "hp": 3300, "atk": 175, "def": 97, "spA": 20, "spD": 67, "speed": 3600},
+			{"level": 2, "hp": 3447, "atk": 179, "def": 108, "spA": 22, "spD": 74, "speed": 3600},
+			{"level": 3, "hp": 3615, "atk": 183, "def": 120, "spA": 24, "spD": 82, "speed": 3600},
+			{"level": 4, "hp": 4469, "atk": 205, "def": 182, "spA": 36, "spD": 125, "speed": 3600},
+			{"level": 5, "hp": 4692, "atk": 211, "def": 198, "spA": 39, "spD": 136, "speed": 3600},
+			{"level": 6, "hp": 4948, "atk": 218, "def": 217, "spA": 43, "spD": 149, "speed": 3600},
+			{"level": 7, "hp": 5242, "atk": 226, "def": 239, "spA": 47, "spD": 164, "speed": 3600},
+			{"level": 8, "hp": 5581, "atk": 235, "def": 264, "spA": 52, "spD": 181, "speed": 3600},
+			{"level": 9, "hp": 5971, "atk": 245, "def": 293, "spA": 58, "spD": 201, "speed": 3600},
+			{"level": 10, "hp": 6420, "atk": 256, "def": 326, "spA": 65, "spD": 224, "speed": 3600},
+			{"level": 11, "hp": 6936, "atk": 269, "def": 364, "spA": 73, "spD": 250, "speed": 3600},
+			{"level": 12, "hp": 7530, "atk": 284, "def": 407, "spA": 82, "spD": 280, "speed": 3600},
+			{"level": 13, "hp": 8213, "atk": 301, "def": 457, "spA": 92, "spD": 314, "speed": 3600},
+			{"level": 14, "hp": 8998, "atk": 321, "def": 514, "spA": 103, "spD": 354, "speed": 3600},
+			{"level": 15, "hp": 9900, "atk": 344, "def": 580, "spA": 116, "spD": 400, "speed": 3600}
+		],
+		"moves": {
+			"basic": {
+				"moveId": "crustle_basic",
+				"style": "physical",
+				"boostStyle": "special",
+				"boostCount": 3,
+				"details": ""
+			},
+			"slot1": [
+				{
+					"moveId": "rock_slide",
+					"style": "physical",
+					"category": "area",
+					"cooldown": 6,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "rock_tomb",
+					"style": "physical",
+					"category": "area",
+					"cooldown": 5,
+					"level": 4,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "shell_smash",
+					"style": "physical",
+					"category": "buff",
+					"cooldown": 7,
+					"level": 5,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"slot2": [
+				{
+					"moveId": "fury_cutter",
+					"style": "physical",
+					"category": "melee",
+					"cooldown": 3.5,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "stealth_rock",
+					"style": "physical",
+					"category": "area",
+					"cooldown": 8,
+					"level": 6,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "x_scissor",
+					"style": "physical",
+					"category": "melee",
+					"cooldown": 9,
+					"level": 6,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"unite": {
+				"moveId": "rubble_rouser",
+				"category": "area",
+				"level": 9,
+				"details": ""
+			},
+			"passive": {
+				"moveId": "sturdy",
+				"details": ""
+			}
+		}
+	},
+	{
+		"pokemonId": "greninja",
+		"dex": 658,
+		"role": "attacker",
+		"type": "ranged",
+		"style": "physical",
+		"difficulty": "expert",
+		"ratings": {
+			"offense": 4,
+			"endurance": 2,
+			"mobility": 3,
+			"scoring": 3,
+			"support": 0.5
+		},
+		"stages": [
+			{
+				"stageId": "froakie",
+				"level": 1
+			},
+			{
+				"stageId": "frogadier",
+				"level": 5
+			},
+			{
+				"stageId": "greninja",
+				"level": 7
+			}
+		],
+		"stats": [
+			{"level": 1, "hp": 3000, "atk": 156, "def": 50, "spA": 20, "spD": 30, "speed": 3600},
+			{"level": 2, "hp": 3034, "atk": 161, "def": 53, "spA": 21, "spD": 32, "speed": 3600},
+			{"level": 3, "hp": 3075, "atk": 167, "def": 56, "spA": 23, "spD": 34, "speed": 3600},
+			{"level": 4, "hp": 3124, "atk": 174, "def": 60, "spA": 25, "spD": 36, "speed": 3600},
+			{"level": 5, "hp": 3304, "atk": 198, "def": 75, "spA": 32, "spD": 45, "speed": 3600},
+			{"level": 6, "hp": 3376, "atk": 208, "def": 81, "spA": 35, "spD": 49, "speed": 3600},
+			{"level": 7, "hp": 3702, "atk": 252, "def": 108, "spA": 49, "spD": 65, "speed": 3600},
+			{"level": 8, "hp": 3805, "atk": 266, "def": 117, "spA": 53, "spD": 70, "speed": 3600},
+			{"level": 9, "hp": 3929, "atk": 283, "def": 127, "spA": 58, "spD": 76, "speed": 3600},
+			{"level": 10, "hp": 4077, "atk": 303, "def": 139, "spA": 64, "spD": 83, "speed": 3600},
+			{"level": 11, "hp": 4255, "atk": 327, "def": 154, "spA": 74, "spD": 92, "speed": 3600},
+			{"level": 12, "hp": 4468, "atk": 356, "def": 172, "spA": 80, "spD": 103, "speed": 3600},
+			{"level": 13, "hp": 4724, "atk": 391, "def": 193, "spA": 91, "spD": 116, "speed": 3600},
+			{"level": 14, "hp": 5031, "atk": 432, "def": 219, "spA": 104, "spD": 131, "speed": 3600},
+			{"level": 15, "hp": 5400, "atk": 482, "def": 250, "spA": 119, "spD": 149, "speed": 3600}
+		],
+		"moves": {
+			"basic": {
+				"moveId": "greninja_basic",
+				"style": "physical",
+				"boostStyle": "special",
+				"boostCount": 3,
+				"details": ""
+			},
+			"slot1": [
+				{
+					"moveId": "bubble",
+					"style": "physical",
+					"category": "ranged",
+					"cooldown": 9,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "water_shuriken",
+					"style": "physical",
+					"category": "area",
+					"cooldown": 7,
+					"level": 7,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "surf",
+					"style": "physical",
+					"category": "melee",
+					"cooldown": 9,
+					"level": 7,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"slot2": [
+				{
+					"moveId": "substitute",
+					"style": "other",
+					"category": "dash",
+					"cooldown": 8,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "double_team",
+					"style": "other",
+					"category": "dash",
+					"cooldown": 11,
+					"level": 5,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "smokescreen",
+					"style": "other",
+					"category": "dash",
+					"cooldown": 11,
+					"level": 5,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"unite": {
+				"moveId": "waterburst_shuriken",
+				"category": "area",
+				"level": 9,
+				"details": ""
+			},
+			"passive": {
+				"moveId": "torrent",
+				"details": ""
+			}
+		}
+	},
+	{
+		"pokemonId": "talonflame",
+		"dex": 663,
+		"role": "speedster",
+		"type": "melee",
+		"style": "physical",
+		"difficulty": "novice",
+		"ratings": {
+			"offense": 2.5,
+			"endurance": 1.5,
+			"mobility": 5,
+			"scoring": 4.5,
+			"support": 0.5
+		},
+		"stages": [
+			{
+				"stageId": "fletchling",
+				"level": 1
+			},
+			{
+				"stageId": "fletchinder",
+				"level": 5
+			},
+			{
+				"stageId": "talonflame",
+				"level": 7
+			}
+		],
+		"stats": [
+			{"level": 1, "hp": 3024, "atk": 170, "def": 58, "spA": 20, "spD": 40, "speed": 3650},
+			{"level": 2, "hp": 3071, "atk": 176, "def": 61, "spA": 21, "spD": 42, "speed": 3650},
+			{"level": 3, "hp": 3127, "atk": 184, "def": 65, "spA": 23, "spD": 45, "speed": 3650},
+			{"level": 4, "hp": 3195, "atk": 193, "def": 70, "spA": 25, "spD": 48, "speed": 3650},
+			{"level": 5, "hp": 3440, "atk": 227, "def": 87, "spA": 32, "spD": 60, "speed": 3650},
+			{"level": 6, "hp": 3538, "atk": 241, "def": 94, "spA": 35, "spD": 65, "speed": 3650},
+			{"level": 7, "hp": 3983, "atk": 303, "def": 125, "spA": 48, "spD": 87, "speed": 3650},
+			{"level": 8, "hp": 4124, "atk": 322, "def": 135, "spA": 52, "spD": 94, "speed": 3650},
+			{"level": 9, "hp": 4293, "atk": 345, "def": 147, "spA": 57, "spD": 102, "speed": 3650},
+			{"level": 10, "hp": 4495, "atk": 373, "def": 161, "spA": 63, "spD": 112, "speed": 3650},
+			{"level": 11, "hp": 4738, "atk": 407, "def": 178, "spA": 70, "spD": 124, "speed": 3650},
+			{"level": 12, "hp": 5029, "atk": 447, "def": 199, "spA": 79, "spD": 138, "speed": 3650},
+			{"level": 13, "hp": 5378, "atk": 495, "def": 224, "spA": 89, "spD": 155, "speed": 3650},
+			{"level": 14, "hp": 5797, "atk": 553, "def": 254, "spA": 102, "spD": 175, "speed": 3650},
+			{"level": 15, "hp": 6300, "atk": 623, "def": 290, "spA": 117, "spD": 200, "speed": 3650}
+		],
+		"moves": {
+			"basic": {
+				"moveId": "talonflame_basic",
+				"style": "physical",
+				"boostStyle": "physical",
+				"boostCount": 3,
+				"details": ""
+			},
+			"slot1": [
+				{
+					"moveId": "peck",
+					"style": "physical",
+					"category": "melee",
+					"cooldown": 5,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "flame_charge",
+					"style": "physical",
+					"category": "dash",
+					"cooldown": 6.5,
+					"level": 5,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "aerial_ace",
+					"style": "physical",
+					"category": "dash",
+					"cooldown": 6,
+					"level": 5,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"slot2": [
+				{
+					"moveId": "acrobatics",
+					"style": "physical",
+					"category": "dash",
+					"cooldown": 8,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "fly",
+					"style": "physical",
+					"category": "dash",
+					"cooldown": 11,
+					"level": 7,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "brave_bird",
+					"style": "physical",
+					"category": "dash",
+					"cooldown": 10,
+					"level": 7,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"unite": {
+				"moveId": "flame_sweep",
+				"category": "dash",
+				"level": 9,
+				"details": ""
+			},
+			"passive": {
+				"moveId": "gale_wings",
+				"details": ""
+			}
+		}
+	},
+	{
+		"pokemonId": "zeraora",
+		"dex": 807,
+		"role": "speedster",
+		"type": "melee",
+		"style": "physical",
+		"difficulty": "expert",
+		"ratings": {
+			"offense": 3.5,
+			"endurance": 1.5,
+			"mobility": 4,
+			"scoring": 3,
+			"support": 0.5
+		},
+		"stages": [
+			{
+				"stageId": "zeraora",
+				"level": 1
+			}
+		],
+		"stats": [
+			{"level": 1, "hp": 3002, "atk": 159, "def": 60, "spA": 20, "spD": 40, "speed": 3650},
+			{"level": 2, "hp": 3120, "atk": 176, "def": 69, "spA": 23, "spD": 46, "speed": 3650},
+			{"level": 3, "hp": 3250, "atk": 195, "def": 78, "spA": 27, "spD": 52, "speed": 3650},
+			{"level": 4, "hp": 3393, "atk": 216, "def": 88, "spA": 31, "spD": 59, "speed": 3650},
+			{"level": 5, "hp": 3550, "atk": 239, "def": 99, "spA": 36, "spD": 67, "speed": 3650},
+			{"level": 6, "hp": 3723, "atk": 265, "def": 112, "spA": 41, "spD": 75, "speed": 3650},
+			{"level": 7, "hp": 3913, "atk": 293, "def": 126, "spA": 47, "spD": 84, "speed": 3650},
+			{"level": 8, "hp": 4122, "atk": 324, "def": 141, "spA": 53, "spD": 94, "speed": 3650},
+			{"level": 9, "hp": 4353, "atk": 358, "def": 158, "spA": 60, "spD": 105, "speed": 3650},
+			{"level": 10, "hp": 4607, "atk": 396, "def": 176, "spA": 68, "spD": 117, "speed": 3650},
+			{"level": 11, "hp": 4887, "atk": 437, "def": 196, "spA": 76, "spD": 131, "speed": 3650},
+			{"level": 12, "hp": 5195, "atk": 483, "def": 218, "spA": 85, "spD": 146, "speed": 3650},
+			{"level": 13, "hp": 5534, "atk": 533, "def": 243, "spA": 98, "spD": 162, "speed": 3650},
+			{"level": 14, "hp": 5908, "atk": 588, "def": 270, "spA": 106, "spD": 180, "speed": 3650},
+			{"level": 15, "hp": 6319, "atk": 649, "def": 300, "spA": 118, "spD": 200, "speed": 3650}
+		],
+		"moves": {
+			"basic": {
+				"moveId": "zeraora_basic",
+				"style": "physical",
+				"boostStyle": "physical",
+				"boostCount": 3,
+				"details": ""
+			},
+			"slot1": [
+				{
+					"moveId": "agility",
+					"style": "other",
+					"category": "dash",
+					"cooldown": 6,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "volt_switch",
+					"style": "physical",
+					"category": "dash",
+					"cooldown": 8,
+					"level": 6,
+					"upgrade": 12,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "spark",
+					"style": "physical",
+					"category": "dash",
+					"cooldown": 10,
+					"level": 6,
+					"upgrade": 12,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"slot2": [
+				{
+					"moveId": "slash",
+					"style": "physical",
+					"category": "dash",
+					"cooldown": 8.5,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "discharge",
+					"style": "physical",
+					"category": "melee",
+					"cooldown": 8.5,
+					"level": 8,
+					"upgrade": 14,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "wild_charge",
+					"style": "physical",
+					"category": "melee",
+					"cooldown": 11,
+					"level": 8,
+					"upgrade": 14,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"unite": {
+				"moveId": "plasma_gale",
+				"category": "sure_hit",
+				"level": 10,
+				"details": ""
+			},
+			"passive": {
+				"moveId": "volt_absorb",
+				"details": ""
+			}
+		}
+	},
+	{
+		"pokemonId": "cinderace",
+		"dex": 815,
+		"role": "attacker",
+		"type": "ranged",
+		"style": "physical",
+		"difficulty": "novice",
+		"ratings": {
+			"offense": 4,
+			"endurance": 1.5,
+			"mobility": 3,
+			"scoring": 2.5,
+			"support": 0.5
+		},
+		"stages": [
+			{
+				"stageId": "scorbunny",
+				"level": 1
+			},
+			{
+				"stageId": "raboot",
+				"level": 5
+			},
+			{
+				"stageId": "cinderace",
+				"level": 7
+			}
+		],
+		"stats": [
+			{"level": 1, "hp": 3000, "atk": 135, "def": 50, "spA": 20, "spD": 30, "speed": 3650},
+			{"level": 2, "hp": 3034, "atk": 140, "def": 53, "spA": 21, "spD": 32, "speed": 3650},
+			{"level": 3, "hp": 3075, "atk": 145, "def": 56, "spA": 23, "spD": 34, "speed": 3650},
+			{"level": 4, "hp": 3124, "atk": 151, "def": 60, "spA": 25, "spD": 36, "speed": 3650},
+			{"level": 5, "hp": 3304, "atk": 174, "def": 75, "spA": 32, "spD": 45, "speed": 3650},
+			{"level": 6, "hp": 3376, "atk": 183, "def": 81, "spA": 35, "spD": 49, "speed": 3650},
+			{"level": 7, "hp": 3702, "atk": 221, "def": 108, "spA": 49, "spD": 65, "speed": 3650},
+			{"level": 8, "hp": 3805, "atk": 233, "def": 117, "spA": 53, "spD": 70, "speed": 3650},
+			{"level": 9, "hp": 3929, "atk": 247, "def": 127, "spA": 58, "spD": 76, "speed": 3650},
+			{"level": 10, "hp": 4077, "atk": 264, "def": 139, "spA": 64, "spD": 83, "speed": 3650},
+			{"level": 11, "hp": 4225, "atk": 284, "def": 154, "spA": 71, "spD": 92, "speed": 3650},
+			{"level": 12, "hp": 4468, "atk": 309, "def": 172, "spA": 80, "spD": 103, "speed": 3650},
+			{"level": 13, "hp": 4724, "atk": 339, "def": 193, "spA": 91, "spD": 116, "speed": 3650},
+			{"level": 14, "hp": 5031, "atk": 375, "def": 219, "spA": 104, "spD": 131, "speed": 3650},
+			{"level": 15, "hp": 5400, "atk": 418, "def": 250, "spA": 119, "spD": 149, "speed": 3650}
+		],
+		"moves": {
+			"basic": {
+				"moveId": "cinderace_basic",
+				"style": "physical",
+				"boostStyle": "physical",
+				"boostCount": 3,
+				"details": ""
+			},
+			"slot1": [
+				{
+					"moveId": "ember",
+					"style": "physical",
+					"category": "sure_hit",
+					"cooldown": 6,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "pyro_ball",
+					"style": "physical",
+					"category": "ranged",
+					"cooldown": 7,
+					"level": 7,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "blaze_kick",
+					"style": "physical",
+					"category": "sure_hit",
+					"cooldown": 8,
+					"level": 7,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"slot2": [
+				{
+					"moveId": "low_sweep",
+					"style": "physical",
+					"category": "dash",
+					"cooldown": 7.5,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "flame_charge",
+					"style": "physical",
+					"category": "melee",
+					"cooldown": 6,
+					"level": 8,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "feint",
+					"style": "other",
+					"category": "buff",
+					"cooldown": 13,
+					"level": 8,
+					"upgrade": 14,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"unite": {
+				"moveId": "blazing_bicycle_kick",
+				"category": "sure_hit",
+				"level": 9,
+				"details": ""
+			},
+			"passive": {
+				"moveId": "blaze",
+				"details": ""
+			}
+		}
+	},
+	{
+		"pokemonId": "eldegoss",
+		"dex": 830,
+		"role": "supporter",
+		"type": "ranged",
+		"style": "special",
+		"difficulty": "novice",
+		"ratings": {
+			"offense": 1.5,
+			"endurance": 2,
+			"mobility": 2.5,
+			"scoring": 2.5,
+			"support": 4
+		},
+		"stages": [
+			{
+				"stageId": "gossifleur",
+				"level": 1
+			},
+			{
+				"stageId": "eldegoss",
+				"level": 4
+			}
+		],
+		"stats": [
+			{"level": 1, "hp": 3278, "atk": 130, "def": 40, "spA": 40, "spD": 30, "speed": 3800},
+			{"level": 2, "hp": 3383, "atk": 134, "def": 44, "spA": 54, "spD": 33, "speed": 3800},
+			{"level": 3, "hp": 3503, "atk": 139, "def": 48, "spA": 70, "spD": 36, "speed": 3800},
+			{"level": 4, "hp": 4114, "atk": 162, "def": 69, "spA": 152, "spD": 52, "speed": 3800},
+			{"level": 5, "hp": 4274, "atk": 168, "def": 74, "spA": 173, "spD": 56, "speed": 3800},
+			{"level": 6, "hp": 4457, "atk": 175, "def": 80, "spA": 198, "spD": 61, "speed": 3800},
+			{"level": 7, "hp": 4668, "atk": 183, "def": 87, "spA": 226, "spD": 66, "speed": 3800},
+			{"level": 8, "hp": 4911, "atk": 192, "def": 95, "spA": 258, "spD": 72, "speed": 3800},
+			{"level": 9, "hp": 5190, "atk": 203, "def": 104, "spA": 295, "spD": 79, "speed": 3800},
+			{"level": 10, "hp": 5511, "atk": 215, "def": 115, "spA": 338, "spD": 87, "speed": 3800},
+			{"level": 11, "hp": 5880, "atk": 229, "def": 128, "spA": 387, "spD": 96, "speed": 3800},
+			{"level": 12, "hp": 6305, "atk": 245, "def": 142, "spA": 444, "spD": 107, "speed": 3800},
+			{"level": 13, "hp": 6794, "atk": 264, "def": 159, "spA": 509, "spD": 119, "speed": 3800},
+			{"level": 14, "hp": 7356, "atk": 285, "def": 178, "spA": 584, "spD": 133, "speed": 3800},
+			{"level": 15, "hp": 8002, "atk": 310, "def": 200, "spA": 670, "spD": 149, "speed": 3800}
+		],
+		"moves": {
+			"basic": {
+				"moveId": "eldegoss_basic",
+				"style": "physical",
+				"boostStyle": "special",
+				"boostCount": 3,
+				"details": ""
+			},
+			"slot1": [
+				{
+					"moveId": "leafage",
+					"style": "special",
+					"category": "ranged",
+					"cooldown": 4.5,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "pollen_puff",
+					"style": "special",
+					"category": "ranged",
+					"cooldown": 6,
+					"level": 4,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "leaf_tornado",
+					"style": "special",
+					"category": "ranged",
+					"cooldown": 9,
+					"level": 7,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"slot2": [
+				{
+					"moveId": "synthesis",
+					"style": "other",
+					"category": "recovery",
+					"cooldown": 7.5,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "cotton_guard",
+					"style": "other",
+					"category": "recovery",
+					"cooldown": 8,
+					"level": 6,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "cotton_spore",
+					"style": "special",
+					"category": "area",
+					"cooldown": 7.5,
+					"level": 6,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"unite": {
+				"moveId": "cotton_cloud_crash",
+				"category": "area",
+				"level": 9,
+				"details": ""
+			},
+			"passive": {
+				"moveId": "cotton_down",
+				"details": ""
+			}
+		}
+	},
+	{
+		"pokemonId": "cramorant",
+		"dex": 845,
+		"role": "attacker",
+		"type": "ranged",
+		"style": "special",
+		"difficulty": "expert",
+		"ratings": {
+			"offense": 4,
+			"endurance": 3,
+			"mobility": 3,
+			"scoring": 1.5,
+			"support": 1
+		},
+		"stages": [
+			{
+				"stageId": "cramorant",
+				"level": 1
+			}
+		],
+		"stats": [
+			{"level": 1, "hp": 3292, "atk": 134, "def": 60, "spA": 50, "spD": 40, "speed": 3700},
+			{"level": 2, "hp": 3399, "atk": 139, "def": 69, "spA": 75, "spD": 46, "speed": 3700},
+			{"level": 3, "hp": 3517, "atk": 145, "def": 78, "spA": 102, "spD": 52, "speed": 3700},
+			{"level": 4, "hp": 3647, "atk": 151, "def": 88, "spA": 132, "spD": 59, "speed": 3700},
+			{"level": 5, "hp": 3789, "atk": 158, "def": 99, "spA": 165, "spD": 67, "speed": 3700},
+			{"level": 6, "hp": 3946, "atk": 166, "def": 112, "spA": 201, "spD": 75, "speed": 3700},
+			{"level": 7, "hp": 4118, "atk": 175, "def": 126, "spA": 240, "spD": 84, "speed": 3700},
+			{"level": 8, "hp": 4308, "atk": 185, "def": 141, "spA": 283, "spD": 94, "speed": 3700},
+			{"level": 9, "hp": 4517, "atk": 196, "def": 158, "spA": 331, "spD": 105, "speed": 3700},
+			{"level": 10, "hp": 4748, "atk": 208, "def": 176, "spA": 384, "spD": 117, "speed": 3700},
+			{"level": 11, "hp": 5002, "atk": 221, "def": 196, "spA": 442, "spD": 131, "speed": 3700},
+			{"level": 12, "hp": 5281, "atk": 235, "def": 218, "spA": 506, "spD": 146, "speed": 3700},
+			{"level": 13, "hp": 5589, "atk": 250, "def": 243, "spA": 576, "spD": 162, "speed": 3700},
+			{"level": 14, "hp": 5928, "atk": 267, "def": 270, "spA": 654, "spD": 180, "speed": 3700},
+			{"level": 15, "hp": 6301, "atk": 286, "def": 300, "spA": 739, "spD": 200, "speed": 3700}
+		],
+		"moves": {
+			"basic": {
+				"moveId": "cramorant_basic",
+				"style": "physical",
+				"boostStyle": "special",
+				"boostCount": 3,
+				"details": ""
+			},
+			"slot1": [
+				{
+					"moveId": "whirlpool",
+					"style": "special",
+					"category": "ranged",
+					"cooldown": 5,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "surf",
+					"style": "special",
+					"category": "hindrance",
+					"cooldown": 8,
+					"level": 6,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "dive",
+					"style": "special",
+					"category": "dash",
+					"cooldown": 1.5,
+					"level": 6,
+					"upgrade": 13,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"slot2": [
+				{
+					"moveId": "feather_dance",
+					"style": "other",
+					"category": "hindrance",
+					"cooldown": 8,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "hurricane",
+					"style": "special",
+					"category": "ranged",
+					"cooldown": 9,
+					"level": 4,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "air_slash",
+					"style": "special",
+					"category": "ranged",
+					"cooldown": 5,
+					"level": 4,
+					"upgrade": 11,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"unite": {
+				"moveId": "gatling_gulp_missile",
+				"category": "ranged",
+				"level": 9,
+				"details": ""
+			},
+			"passive": {
+				"moveId": "gulp_missile",
+				"details": ""
+			}
+		}
+	},
+    {
+		"pokemonId": "blissey",
+		"dex": 24,
+		"role": "supporter",
+		"type": "ranged",
+		"style": "special",
+		"difficulty": "novice",
+		"ratings": {
+			"offense": 2,
+			"endurance": 7,
+			"mobility": 3,
+			"scoring": 3,
+			"support": 9
+		},
+		"stages": [
+			{
+				"stageId": "chansey",
+				"level": 1
+			},
+			{
+				"stageId": "blissey",
+				"level": 5
+			}
+		],
+		"stats": [
+			{"level": 1, "hp": 3278, "atk": 130, "def": 40, "spA": 40, "spD": 30, "speed": 3700},
+			{"level": 2, "hp": 3347, "atk": 147, "def": 44, "spA": 40, "spD": 33, "speed": 3700},
+			{"level": 3, "hp": 3598, "atk": 152, "def": 48, "spA": 40, "spD": 36, "speed": 3700},
+			{"level": 4, "hp": 4467, "atk": 178, "def": 69, "spA": 40, "spD": 52, "speed": 3700},
+			{"level": 5, "hp": 4694, "atk": 184, "def": 74, "spA": 40, "spD": 56, "speed": 3700},
+			{"level": 6, "hp": 4955, "atk": 192, "def": 80, "spA": 40, "spD": 61, "speed": 3700},
+			{"level": 7, "hp": 5255, "atk": 201, "def": 87, "spA": 40, "spD": 66, "speed": 3700},
+			{"level": 8, "hp": 5600, "atk": 211, "def": 95, "spA": 40, "spD": 72, "speed": 3700},
+			{"level": 9, "hp": 5997, "atk": 223, "def": 104, "spA": 40, "spD": 79, "speed": 3700},
+			{"level": 10, "hp": 6454, "atk": 236, "def": 115, "spA": 40, "spD": 87, "speed": 3700},
+			{"level": 11, "hp": 6980, "atk": 251, "def": 128, "spA": 40, "spD": 96, "speed": 3700},
+			{"level": 12, "hp": 7585, "atk": 269, "def": 142, "spA": 40, "spD": 107, "speed": 3700},
+			{"level": 13, "hp": 8281, "atk": 290, "def": 159, "spA": 40, "spD": 119, "speed": 3700},
+			{"level": 14, "hp": 9081, "atk": 313, "def": 178, "spA": 40, "spD": 133, "speed": 3700},
+			{"level": 15, "hp": 10000, "atk": 341, "def": 200, "spA": 40, "spD": 149, "speed": 3700}
+		],
+		"moves": {
+			"basic": {
+				"moveId": "blissey_basic",
+				"style": "physical",
+				"boostStyle": "special",
+				"boostCount": 3,
+				"details": ""
+			},
+			"slot1": [
+				{
+					"moveId": "pound",
+					"style": "special",
+					"category": "ranged",
+					"cooldown": 6,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "egg_bomb",
+					"style": "special",
+					"category": "ranged",
+					"cooldown": 7.5,
+					"level": 4,
+					"upgrade": 10,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "helping_hand",
+					"style": "other",
+					"category": "buff",
+					"cooldown": 7,
+					"level": 4,
+					"upgrade": 10,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"slot2": [
+				{
+					"moveId": "heal_pulse",
+					"style": "other",
+					"category": "recovery",
+					"cooldown": 10,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "soft_boiled",
+					"style": "other",
+					"category": "recovery",
+					"cooldown": 2,
+					"level": 6,
+					"upgrade": 12,
+					"upgrade_details": "",
+					"details": ""
+				},
+				{
+					"moveId": "safeguard",
+					"style": "other",
+					"category": "buff",
+					"cooldown": 11,
+					"level": 6,
+					"upgrade": 12,
+					"upgrade_details": "",
+					"details": ""
+				}
+			],
+			"unite": {
+				"moveId": "bliss_assistance",
+				"category": "other",
+				"level": 8,
+				"details": ""
+			},
+			"passive": {
+				"moveId": "natural_cure",
+				"details": ""
+			}
+		}
+	},
+    {
+		"pokemonId": "blastoise",
+		"dex": 25,
+		"role": "defender",
+		"type": "ranged",
+		"style": "special",
+		"difficulty": "intermediate",
+		"ratings": {
+			"offense": 2,
+			"endurance": 7,
+			"mobility": 4,
+			"scoring": 4,
+			"support": 6
+		},
+		"stages": [
+			{
+				"stageId": "squirtle",
+				"level": 1
+			},
+			{
+				"stageId": "wartortle",
+				"level": 5
+			},
+			{
+				"stageId": "blastoise",
+				"level": 9
+			}
+		],
+		"stats": [
+			{"level": 1, "hp": 3225, "atk": 150, "def": 100, "spA": 50, "spD": 70, "speed": 3700},
+			{"level": 2, "hp": 3319, "atk": 152, "def": 107, "spA": 55, "spD": 75, "speed": 3700},
+			{"level": 3, "hp": 3432, "atk": 154, "def": 116, "spA": 61, "spD": 81, "speed": 3700},
+			{"level": 4, "hp": 3568, "atk": 157, "def": 126, "spA": 68, "spD": 88, "speed": 3700},
+			{"level": 5, "hp": 4060, "atk": 168, "def": 163, "spA": 95, "spD": 114, "speed": 3700},
+			{"level": 6, "hp": 4256, "atk": 172, "def": 178, "spA": 106, "spD": 124, "speed": 3700},
+			{"level": 7, "hp": 4491, "atk": 177, "def": 196, "spA": 119, "spD": 137, "speed": 3700},
+			{"level": 8, "hp": 4773, "atk": 183, "def": 217, "spA": 135, "spD": 152, "speed": 3700},
+			{"level": 9, "hp": 5769, "atk": 205, "def": 293, "spA": 190, "spD": 205, "speed": 3700},
+			{"level": 10, "hp": 6175, "atk": 214, "def": 324, "spA": 212, "spD": 227, "speed": 3700},
+			{"level": 11, "hp": 6662, "atk": 225, "def": 361, "spA": 239, "spD": 253, "speed": 3700},
+			{"level": 12, "hp": 7247, "atk": 238, "def": 405, "spA": 271, "spD": 284, "speed": 3700},
+			{"level": 13, "hp": 7948, "atk": 253, "def": 456, "spA": 310, "spD": 321, "speed": 3700},
+			{"level": 14, "hp": 8790, "atk": 271, "def": 522, "spA": 356, "spD": 366, "speed": 3700},
+			{"level": 15, "hp": 9800, "atk": 293, "def": 599, "spA": 412, "spD": 420, "speed": 3700}
+		],
+		"moves": {
+			"basic": {
+				"moveId": "blastoise_basic",
+				"style": "physical",
+				"boostStyle": "special",
+				"boostCount": 3,
+				"details": "Becomes a boosted attack with every third attack, dealing continual damage and decreasing the movement speed of opposing Pokemon for a short time."
+			},
+			"slot1": [
+				{
+					"moveId": "water_gun",
+					"style": "special",
+					"category": "ranged",
+					"cooldown": 9,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "hydro_pump",
+					"style": "special",
+					"category": "ranged",
+					"cooldown": 8.5,
+					"level": 5,
+					"upgrade": 11
+				},
+				{
+					"moveId": "water_spout",
+					"style": "special",
+					"category": "area",
+					"cooldown": 9,
+					"level": 5,
+					"upgrade": 11
+				}
+			],
+			"slot2": [
+				{
+					"moveId": "skull_bash",
+					"style": "special",
+					"category": "dash",
+					"cooldown": 10,
+					"level": 1,
+					"details": ""
+				},
+				{
+					"moveId": "surf",
+					"style": "special",
+					"category": "dash",
+					"cooldown": 12,
+					"level": 7,
+					"upgrade": 13
+				},
+				{
+					"moveId": "rapid_spin",
+					"style": "special",
+					"category": "buff",
+					"cooldown": 11,
+					"level": 7,
+					"upgrade": 13
+				}
+			],
+			"unite": {
+				"moveId": "hydro_typhoon",
+				"category": "other",
+				"level": 8,
+				"details": "Has the user spout water to attack while spinning, throwing opposing Pokemon in a large area. This also grants the user a shield."
+			},
+			"passive": {
+				"moveId": "torrent",
+				"details": "When the Pokemon is at half HP or less, its Attack and Sp. Atk are increased."
+			}
+		}
+	}
+]
+}

@@ -1,0 +1,34 @@
+.main-container {
+  padding: 0 5px;
+  max-width: 1000px;
+  margin: 100px auto;
+}
+.landing-header {
+  background-color: #8eddff;
+  background: url(./img/header-background.jpg) center center/cover no-repeat;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-background {
+  background: url(./img/pokemon-unite-store-icon.svg),
+    linear-gradient(#eb756e, #ffdcb1);
+  background-size: 376px, auto;
+  padding: 100px 0;
+}
+.holowear-background {
+  background-color: #8eddff;
+  background-image: url(./img/pokemon-unite-ubc-icon.svg),
+    linear-gradient(0deg, #8eddff, #7892ef);
+  background-size: 376px, auto;
+  padding: 100px 0;
+}
+.logo-background {
+  background-color: #8eddff;
+  background-image: url(./img/square-background.jpg),
+    linear-gradient(0deg, #8eddff, #7892ef);
+  background-size: 376px, auto;
+  padding: 100px 0;
+}
